@@ -1,0 +1,13 @@
+{
+  "name": "Eldorado marker",
+  "version": "1.0.0",
+  "description": "Marker marks visited job offers",
+  "manifest_version": 3,
+  "author": "Patryk Godlewski",
+  "content_scripts": [
+    {
+      "matches": ["*://czyjesteldorado.pl/*"],
+      "js": ["js/script.js"]
+    }
+  ]
+}
